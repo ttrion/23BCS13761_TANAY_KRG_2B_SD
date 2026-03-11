@@ -1,0 +1,256 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="jMN4dtzHAHty5psXkwn_">
+    <mxGraphModel dx="1718" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IG7Cz-LUzywHiOBToCAp-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;odd&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="IG7Cz-LUzywHiOBToCAp-5" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;design an e- commerce system with following requirements:&lt;br&gt;1. user login service&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2. search service&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3. product catalog service&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;4. cart service&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;5. order status service&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;6. check out service&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;optimize the product searching and inventory stock management in real time&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="460" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IG7Cz-LUzywHiOBToCAp-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;u&gt;Functional requirements:&lt;br&gt;&lt;/u&gt;1) user should be able to log in&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2) user should be able to access and search the catalog&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3) user should be able to add items to cart&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4) user should be able to check the status of their order&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5) user should be able to check out the cart&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;u&gt;non-functional requirements:&lt;br&gt;&lt;/u&gt;1) system should be able to handle 1.5 millionn daily active users&lt;br&gt;2) systen should be able to optimize the following in real time:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - product searching&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - inventory stock management&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3) latency: 300ms at most&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="470" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-2" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-270" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-3" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-230" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-4" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-252" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Users" vertex="1">
+          <mxGeometry height="30" width="60" x="-262" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-6" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-3" style="endArrow=classic;html=1;rounded=0;exitX=1.06;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1010" as="sourcePoint" />
+            <mxPoint x="-70" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-58" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=-0.248;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-59" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mMhaxt_RKQuBXd_HBgk8-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="940" />
+              <mxPoint x="202" y="1022" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-23" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+          <mxGeometry height="110" width="117.53" x="-63.75999999999999" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-87" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMhaxt_RKQuBXd_HBgk8-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-88" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMhaxt_RKQuBXd_HBgk8-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="API Gateway and Load balancers&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="-70" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-45" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMhaxt_RKQuBXd_HBgk8-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-32" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User Service" vertex="1">
+          <mxGeometry height="30" width="90" x="210" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-33" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="680" />
+              <mxPoint x="458" y="680" />
+            </Array>
+            <mxPoint x="254" y="690" as="sourcePoint" />
+            <mxPoint x="430" y="569.9750501319268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-34" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="1. User Registration&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="130" x="70" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-35" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Registration: Data Saving in DB" vertex="1">
+          <mxGeometry height="30" width="190" x="260" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-37" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="2. Logging" vertex="1">
+          <mxGeometry height="30" width="80" x="86.23000000000002" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-38" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Check user&#39;s credentials" vertex="1">
+          <mxGeometry height="30" width="150" x="295.13" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-39" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="HTTP Response: User Verified" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="JWT for session&lt;br&gt;management" vertex="1">
+          <mxGeometry height="40" width="110" x="90" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-41" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;User DB&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="485.13" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-42" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="64.5" width="60" x="480.13" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-43" parent="1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="210" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-44" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-47" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" value="" vertex="1">
+          <mxGeometry height="52" width="72" x="340" y="872" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-48" parent="1" style="image;html=1;image=img/lib/clip_art/computers/IBM_Tablet_128x128.png" value="" vertex="1">
+          <mxGeometry height="70" width="60" x="350" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-49" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="mMhaxt_RKQuBXd_HBgk8-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="1026" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-50" parent="1" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png;rotation=15;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="400" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-51" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search Service" vertex="1">
+          <mxGeometry height="30" width="100" x="330" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-52" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Product Catalog&lt;div&gt;&amp;nbsp;Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="340" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-53" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ms_sql_instance_2;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="560" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-54" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Product Database" vertex="1">
+          <mxGeometry height="30" width="120" x="545.13" y="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-56" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-57" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search Product Request" vertex="1">
+          <mxGeometry height="30" width="150" x="120" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-62" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Cart Service" vertex="1">
+          <mxGeometry height="30" width="90" x="174.86" y="1162" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-63" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Order Status Service" vertex="1">
+          <mxGeometry height="30" width="130" x="145.35000000000002" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-64" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.restore;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="60" width="59.55" x="180.58000000000004" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="172.13" width="333.25" x="53.50999999999999" y="1435.5699999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-66" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.13" y="1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-67" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Success.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="42.42" x="198.06000000000006" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-68" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Checkout Service" vertex="1">
+          <mxGeometry height="30" width="120" x="162.06000000000006" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-69" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475.13" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-70" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" value="Payment" vertex="1">
+          <mxGeometry height="40" width="90" x="174.26999999999998" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-71" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMhaxt_RKQuBXd_HBgk8-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-72" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="189.26999999999998" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-73" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-74" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-75" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Service" vertex="1">
+          <mxGeometry height="30" width="110" x="159.56000000000006" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-76" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="30" width="120" x="162.06000000000006" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-77" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="485.13" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-78" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Order Database" vertex="1">
+          <mxGeometry height="30" width="110" x="460.13" y="1423" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-79" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Cart Database" vertex="1">
+          <mxGeometry height="30" width="100" x="515.13" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-80" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-81" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="64.5" width="60" x="480.13" y="1477.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-82" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Database" vertex="1">
+          <mxGeometry height="30" width="130" x="445.13" y="1542.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-83" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" value="" vertex="1">
+          <mxGeometry height="62.3" width="62.3" x="-26.14999999999998" y="1588.0000000000007" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-84" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.13" y="1127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-91" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMhaxt_RKQuBXd_HBgk8-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1100" />
+              <mxPoint x="450" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-85" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cart;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="178.63" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-86" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="515.13" y="1102" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Third Party Payment Gateway" vertex="1">
+          <mxGeometry height="30" width="108.72" x="-49.36000000000003" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-90" edge="1" parent="1" source="mMhaxt_RKQuBXd_HBgk8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.05;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.043;entryY=0.822;entryDx=0;entryDy=0;entryPerimeter=0;" target="mMhaxt_RKQuBXd_HBgk8-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMhaxt_RKQuBXd_HBgk8-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="updates any price changes that occur into cart" vertex="1">
+          <mxGeometry height="38" width="179.87" x="250.13" y="1064" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
