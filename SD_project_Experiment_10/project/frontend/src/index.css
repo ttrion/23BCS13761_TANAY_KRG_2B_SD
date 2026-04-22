@@ -1,0 +1,32 @@
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #c084fc;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  /* This ensures the background color/gradient always shows */
+  background: var(--bg); 
+  color: var(--text);
+}
+
+#root {
+  min-height: 100vh;
+}
