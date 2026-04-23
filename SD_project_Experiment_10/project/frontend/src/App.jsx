@@ -27,11 +27,9 @@ function App() {
       <div className="container">
         <Routes>
 
-          {/* PUBLIC ROUTES */}
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
 
-          {/* USER ROUTE (must be logged in as USER) */}
           <Route
             path="/feedback"
             element={
@@ -41,7 +39,6 @@ function App() {
             }
           />
 
-          {/* ADMIN ROUTE (must be logged in as ADMIN) */}
           <Route
             path="/admin"
             element={
