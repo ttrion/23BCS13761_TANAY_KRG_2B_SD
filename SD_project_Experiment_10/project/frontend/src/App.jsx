@@ -11,6 +11,14 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import "./index.css";
 import "./app.css";
 
+import {
+  getUsers,
+  saveUsers,
+  getFeedback,
+  saveFeedback,
+  ensureAdmin,
+} from "./utils/Utils";
+
 function App() {
   return (
     <BrowserRouter>
